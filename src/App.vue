@@ -7,7 +7,8 @@
     <div class="botones">
       <button @click="iniciar(3)">3 segs</button>
       <button @click="iniciar(10)">10 segs</button>
-      <button @click="iniciar(20)">20 segs</button>
+      <button @click="iniciar(30)">30 segs</button>
+      <button @click="iniciar(60)">60 segs</button>
     </div>
   </div>
 </template>
