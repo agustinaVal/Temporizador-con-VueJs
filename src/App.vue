@@ -1,15 +1,13 @@
 <template>
   <div id="app">
     <h1>
-      {{ contadorMin < 10 ? '0' + contadorMin : contadorMin }}:{{
-      contadorSeg < 10 ? '0' + contadorSeg : contadorSeg
-      }}
-      min/seg
+      {{ contadorSeg}}
+      seg
     </h1>
     <div class="botones">
       <button @click="iniciar(3)">3 segs</button>
-      <button @click="iniciar(60)">1 min</button>
-      <button @click="iniciar(180)">2 min</button>
+      <button @click="iniciar(10)">10 segs</button>
+      <button @click="iniciar(20)">20 segs</button>
     </div>
   </div>
 </template>
